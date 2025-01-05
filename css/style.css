@@ -195,7 +195,7 @@ body {
 .trend__tags__title {
   margin-left: 18px;
   margin-right: 21px;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   box-sizing: border-box;
   border: #b59f5b solid 3px;
   padding: 39px 44px 37px 33px;
@@ -222,7 +222,7 @@ body {
 }
 
 .trends__item__title {
-  line-height: 1.2em;
+  /*line-height: 1.2em;*/
 }
 
 .trends__title__link {
