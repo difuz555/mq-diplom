@@ -242,7 +242,7 @@ body {
 .main_part_wrapper {
   max-width: 1200px;
   padding: 0 15px;
-  margin: 64px auto 32px;
+  margin: 64px auto 64px;
 }
 
 .container {
