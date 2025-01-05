@@ -207,6 +207,7 @@ body {
   gap: 20px;
   flex-wrap: wrap;
   list-style: none;
+  margin-bottom: 7px;
 }
 
 .trends__tags__item {
