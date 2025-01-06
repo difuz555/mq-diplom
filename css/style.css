@@ -925,6 +925,10 @@ body {
     padding: 0 35px;
   }
 
+  .header__title {
+    font-size: 40px;
+  }
+
   .menu_list {
     display: none;
   }
