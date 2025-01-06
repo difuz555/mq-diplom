@@ -151,14 +151,12 @@ body {
 .trends__container {
   display: flex;
   /*justify-content: space-between;*/
-  gap: 3px;
+  gap: 4px;
 }
 
 .trends__item {
   position: relative;
-  width: 25%;
-  /*calc(25% - 12/4);*/
-  height: 320px;
+  width: calc(25% - 12px / 4);
   background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
@@ -197,10 +195,11 @@ body {
 .trend__tags__title {
   margin-left: 18px;
   margin-right: 25px;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
+  margin-top: 135px;
   box-sizing: border-box;
   border: #b59f5b solid 3px;
-  padding: 33px 33px 34px 33px;
+  padding: 30px 33px 34px 33px;
   z-index: 1;
 }
 
