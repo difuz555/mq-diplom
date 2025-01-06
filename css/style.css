@@ -924,7 +924,7 @@ body {
 @media (min-width: 641px) and (max-width: 1199px) {
   .header {
     padding-top: 45px;
-    padding-bottom: 105px;
+    padding-bottom: 114px;
   }
   
   .header__wrapper {
@@ -934,6 +934,10 @@ body {
 
   .header__top_line {
     margin-bottom: 85px;
+  }
+
+  .logo {
+    width: 150px;
   }
 
   .header__title {
