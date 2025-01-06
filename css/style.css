@@ -403,12 +403,12 @@ body {
 }
 
 .sidebar__item__heading {
-  line-height: 18px;
+  line-height: 17px;
   position: relative;
   /*pixel prefect*/
   top: -7px;
   /*pixel prefect*/
-  left: 3px;
+  left: 1px;
   /*pixel prefect*/
 }
 
