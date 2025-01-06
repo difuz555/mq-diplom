@@ -967,11 +967,28 @@ body {
 
   .trends__container {
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 3px;
   }
 
   .trends__item {
-    width: calc(50% - 3px);
+    width: calc(50% - 3px / 2);
+    height: 247px;
+  }
+
+  .trend__tags__title {
+    margin-left: 20px;
+    margin-right: 19px;
+    margin-bottom: 13px;
+    padding: 30px 33px 25px 30px;
+  }
+
+  .trends__tags {
+    margin-bottom: 4px;
+  }
+
+  .trends__item__title {
+    line-height: 20px;
+    margin-bottom: 7px;
   }
 
   .trends__title__link {
