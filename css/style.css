@@ -640,7 +640,7 @@ body {
 .shop__item__info {
   /*margin-top: 25px;*/
   /*padding: 54px 21px 26px 21px;*/
-  padding-top: 25px;
+  padding-top: 5px;
   padding-bottom: 26px;
   outline: 3px solid #b59f5b;
   outline-offset: 20px;
