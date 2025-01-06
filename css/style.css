@@ -972,7 +972,7 @@ body {
 
   .trends__item {
     width: calc(50% - 3px / 2);
-    height: 247px;
+    max-height: 247px;
   }
 
   .trend__tags__title {
@@ -997,6 +997,7 @@ body {
 
   .main_part_wrapper {
     padding: 0 35px;
+    margin-top: 50px;
   }
 
   .container {
@@ -1020,9 +1021,12 @@ body {
     width: 100%;
   }
 
+  .blog__title__link {
+    font-size: 17px;
+  }
+
   .shop_wrapper {
     max-width: 768px;
-    ;
     flex-wrap: wrap;
     gap: 70px;
     padding: 0 35px;
