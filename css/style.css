@@ -954,8 +954,21 @@ body {
     display: block;
   }
 
+  .trends {
+    margin: 43px auto;
+  }
+
+  .trends__title {
+    font-size: 18px;
+  }
+
+  .trends__title::after {
+    margin-bottom: 20px;
+  }
+
   .trends__container {
     flex-wrap: wrap;
+    gap: 5px;
   }
 
   .trends__item {
