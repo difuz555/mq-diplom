@@ -674,7 +674,7 @@ body {
 .price_btn {
   display: flex;
   justify-content: space-between;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .price {
