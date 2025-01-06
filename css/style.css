@@ -1050,12 +1050,12 @@ body {
   .shop_wrapper {
     max-width: 768px;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 68px;
     padding: 0 58px 0 55px;
   }
 
   .shop__item {
-    width: calc(100% / 2 - 70px);
+    width: calc(100% / 2 - 68px / 2);
     margin-bottom: -17px;
   }
 
