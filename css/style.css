@@ -1051,7 +1051,7 @@ body {
     max-width: 768px;
     flex-wrap: wrap;
     gap: 70px;
-    padding: 0 35px;
+    padding: 0 58px 0 55px;
   }
 
   .shop__item {
