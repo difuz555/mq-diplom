@@ -394,10 +394,12 @@ body {
 }
 
 .sidebar__posts__date {
+  line-height: 1.2em;
   font-size: 12px;
   position: relative;
-  top: -8px;
+  /*top: -8px;*/
   left: 2px;
+  margin-top: -8px;
 }
 
 .sidebar__item__heading {
@@ -423,7 +425,7 @@ body {
 }
 
 .searching {
-  margin-top: 55px;
+  margin-top: 58px;/*55*/
 }
 
 .search {
@@ -474,7 +476,7 @@ body {
 }
 
 .newsletter_form {
-  margin-bottom: 60px;
+  margin-bottom: 61px;/*60*/
 }
 
 .newsletter {
@@ -520,7 +522,7 @@ body {
 }
 
 .tags {
-  margin-bottom: 55px;
+  margin-bottom: 53px;/*55*/
 }
 
 .tag_items {
@@ -601,7 +603,7 @@ body {
 }
 
 .shop {
-  margin-bottom: 64px;
+  margin-bottom: 87px;
 }
 
 .shop__title::after {
@@ -638,10 +640,9 @@ body {
 
 
 .shop__item__info {
-  /*margin-top: 25px;*/
-  /*padding: 54px 21px 26px 21px;*/
-  padding-top: 15px;
-  padding-bottom: 26px;
+  margin-top: -12px;
+  padding-top: 26px;
+  padding-bottom: 6px;
   outline: 3px solid #b59f5b;
   outline-offset: 20px;
   flex-grow: 1;
@@ -694,12 +695,12 @@ body {
 
 .btn_in_shop {
   /*margin-top: 16px;*/
-  width: 140px;
+  width: 139px;
   height: 48px;
   background-color: #b59f5b;
   font-size: 14px;
   font-weight: bold;
-  padding: 19px 28px;
+  padding-top: 1px;
   box-sizing: border-box;
   text-transform: uppercase;
   color: white;
@@ -736,9 +737,9 @@ body {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 27px;
   position: relative;
-  left: 5px;
+  left: 3px;
 }
 
 .icon {
