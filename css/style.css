@@ -93,10 +93,12 @@ body {
 
 .burger_menu {
   fill: #ffffff;
-  height: 18px;
-  width: 21px;
+  width: 22px;
   display: none;
   cursor: pointer;
+  position: relative;
+  top: -4px;
+  left: -5px;
 }
 
 .header__title {
@@ -920,13 +922,24 @@ body {
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
+  .header {
+    padding-top: 45px;
+    padding-bottom: 114px;
+  }
+  
   .header__wrapper {
     max-width: 768px;
-    padding: 0 35px;
+    padding: 0 30px;
+  }
+
+  .header__top_line {
+    margin-bottom: 85px;
   }
 
   .header__title {
     font-size: 40px;
+    line-height: 55px;
+    max-width: 650px;
   }
 
   .menu_list {
