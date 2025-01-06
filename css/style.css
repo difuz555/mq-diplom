@@ -394,12 +394,12 @@ body {
 }
 
 .sidebar__posts__date {
-  line-height: 1.2em;
+  /*line-height: 1.2em;*/
   font-size: 12px;
   position: relative;
-  /*top: -8px;*/
-  left: 2px;
-  margin-top: -8px;
+  top: -8px;
+  /*left: 2px;
+  margin-top: -8px;*/
 }
 
 .sidebar__item__heading {
