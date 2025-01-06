@@ -975,6 +975,10 @@ body {
     width: calc(50% - 3px);
   }
 
+  .trends__title__link {
+    font-size: 17px;
+  }
+
   .main_part_wrapper {
     padding: 0 35px;
   }
