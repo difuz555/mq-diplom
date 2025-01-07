@@ -1099,6 +1099,13 @@ body {
 
   .header__top_line {
     margin-bottom: 246px;
+    flex-direction: column-reverse;
+    gap: 175px;
+    align-items: center;
+  }
+
+  .navigation {
+    align-self: flex-end;
   }
 
   .menu_list {
