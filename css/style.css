@@ -1095,6 +1095,47 @@ body {
   .address {
     margin-bottom: 44px;
   }
+
+  .pop_up {
+    top: 236px;
+    padding: 49px 28px 54px;
+  }
+
+  .pop_up__title {
+    font-size: 18px;
+  }
+
+  .pop_up__title::after {
+    margin-top: 9px;
+  }
+
+  .pop_up__radio_btns {
+    margin-bottom: 32px;
+    margin-top: 9px;
+    margin-left: 5px;
+  }
+
+  .pop_up__choice {
+    margin-right: 33px;
+  }
+
+  .pop_up__choice::before {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+  }
+
+  #pop_up__textarea {
+    margin-bottom: 23px;
+  }
+
+  .pop_up_close {
+    width: 26px;
+    top: -36px;
+    right: 1px;
+  }
 }
 
 @media (max-width: 640px) {
