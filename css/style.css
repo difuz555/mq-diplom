@@ -1368,4 +1368,60 @@ body {
   .address {
     margin-bottom: 43px;
   }
+
+  .pop_up {
+    width: 330px;
+    top: 57px;
+    padding: 25px 23px 31px;
+  }
+
+  .pop_up__title {
+    font-size: 16px;
+  }
+
+  .pop_up__title::after {
+    margin-top: 9px;
+    margin-bottom: 26px;
+  }
+
+  .pop_up__visit {
+    padding: 17px 19px;
+    margin-top: 8px;
+    width: 281px;
+    background-position: 257px;
+    margin-bottom: 30px;
+  }
+
+  .pop_up__radio_btns {
+    margin-bottom: 33px;
+    margin-top: 7px;
+    margin-left: 6px;
+  }
+
+  .pop_up__choice {
+    margin-right: 35px;
+  }
+
+  .pop_up__choice::before {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    outline-offset: 3px;
+  }
+
+  #pop_up__textarea {
+    margin-bottom: 23px;
+  }
+
+  .pop_up__submit {
+    width: 281px;
+  }
+
+  .pop_up_close {
+    width: 26px;
+    top: -32px;
+    right: 1px;
+  }
 }
