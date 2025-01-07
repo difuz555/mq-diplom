@@ -1089,7 +1089,7 @@ body {
 
 @media (max-width: 640px) {
   .header {
-    padding-bottom: 210px;
+    padding-bottom: 212px;
   }
 
   .header__wrapper {
@@ -1098,7 +1098,7 @@ body {
   }
 
   .header__top_line {
-    margin-bottom: 246px;
+    margin-bottom: 27px;
     flex-direction: column-reverse;
     gap: 175px;
     align-items: center;
@@ -1114,10 +1114,15 @@ body {
 
   .burger_menu {
     display: block;
+    width: 23px;
+    position: relative;
+    left: -1px;
   }
 
   .logo {
     width: 269px;
+    position: relative;
+    left: -1px;
   }
 
   .header__title {
@@ -1127,7 +1132,7 @@ body {
   }
 
   .trends {
-    margin: 40px auto;
+    margin: 39px auto;
   }
 
   .trends__title {
