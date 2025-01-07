@@ -1098,6 +1098,12 @@ body {
     display: block;
   }
 
+  .header__title {
+    font-size: 26px;
+    line-height: 36px;
+    max-width: 328px;
+  }
+
   .trends__container {
     flex-wrap: wrap;
   }
