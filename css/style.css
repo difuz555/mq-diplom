@@ -636,6 +636,7 @@ body {
 
 .shop__item__img {
   width: 100%;
+  object-fit: cover;
 }
 
 
@@ -1176,6 +1177,7 @@ body {
   .main_part_wrapper {
     padding: 0 15px;
     margin-top: 46px;
+    margin-bottom: 41px;
   }
 
   .container {
@@ -1185,17 +1187,19 @@ body {
 
   .blogs {
     width: 100%;
+    margin-bottom: 43px;
   }
 
   .blog {
     flex-direction: column;
+    margin-bottom: 35px;
   }
 
   .blog::after {
     content: "";
     display: block;
     width: 100%;
-    margin-top: 22px;
+    margin-top: 11px;
     height: 3px;
     background-color: #eeeeee;
   }
@@ -1231,16 +1235,59 @@ body {
     line-height: 20px;
   }
 
+  .blog__text_next {
+    margin-top: -5px;
+  }
+
   .sidebar {
     width: 100%;
   }
 
+  .sidebar__item__title {
+    font-size: 16px;
+  }
+
+  .sidebar_posts {
+    margin-bottom: 43px;
+  }
+
+  .search {
+    width: 85%;
+  }
+
+  .newsletter_form {
+    margin-bottom: 43px;
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .btn_subscribe {
+    width: 100%;
+  }
+
+  .tags {
+    margin-bottom: 36px;
+  }
+
+  .tag_item {
+    margin-right: 2px;
+  }
+
+  .shop__title {
+    font-size: 16px;
+  }
+
+  .shop__title::after {
+    margin-top: 10px;
+  }
+
   .shop_wrapper {
-    max-width: 360px;
-    ;
+    max-width: 360px;    ;
     flex-wrap: wrap;
     gap: 70px;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
   }
 
   .shop__item {
