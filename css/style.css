@@ -1132,7 +1132,7 @@ body {
   }
 
   .trends {
-    margin: 39px auto;
+    margin: 39px auto 0;
   }
 
   .trends__title {
@@ -1175,6 +1175,7 @@ body {
 
   .main_part_wrapper {
     padding: 0 15px;
+    margin-top: 46px;
   }
 
   .container {
@@ -1197,6 +1198,23 @@ body {
 
   .blog__img {
     width: 100%;
+  }
+
+  .blog__header {
+    margin-top: 12px;
+    margin-bottom: 28px;
+  }
+
+  .blog__title {
+    line-height: 20px;
+  }
+
+  .blog__title__link {
+    font-size: 16px;
+  }
+
+  .blog__date_and_author {
+    margin-top: 28px;
   }
 
   .sidebar {
