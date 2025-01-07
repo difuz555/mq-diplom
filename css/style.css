@@ -1191,6 +1191,15 @@ body {
     flex-direction: column;
   }
 
+  .blog::after {
+    content: "";
+    display: block;
+    width: 100%;
+    margin-top: 22px;
+    height: 3px;
+    background-color: #eeeeee;
+  }
+
   .blog__picture {
     width: 100%;
   }
@@ -1201,12 +1210,12 @@ body {
   }
 
   .blog__header {
-    margin-top: 12px;
-    margin-bottom: 28px;
+    margin-top: 11px;
+    margin-bottom: 13px;
   }
 
   .blog__title {
-    line-height: 20px;
+    line-height: 16px;
   }
 
   .blog__title__link {
@@ -1214,7 +1223,12 @@ body {
   }
 
   .blog__date_and_author {
-    margin-top: 28px;
+    margin-top: 18px;
+  }
+
+  .blog__text {
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .sidebar {
