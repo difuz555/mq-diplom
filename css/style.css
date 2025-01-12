@@ -721,6 +721,7 @@ body {
 .pop_up_wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.6);
   top: 0;
@@ -734,7 +735,6 @@ body {
   position: fixed;
   width: 390px;
   background-color: #ffffff;
-  top: 243px;
   z-index: 101;
   padding: 47px 30px 53px;
   box-sizing: border-box;
@@ -1042,7 +1042,6 @@ body {
   }
 
   .pop_up {
-    top: 236px;
     padding: 49px 28px 54px;
   }
 
@@ -1303,7 +1302,6 @@ body {
 
   .pop_up {
     width: 330px;
-    top: 57px;
     padding: 25px 23px 31px;
   }
 
