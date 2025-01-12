@@ -16,7 +16,7 @@
             src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"></a>
         <nav class="navigation">
           <ul class="menu_list">
-            <li class="menu_list__item menu_list__item__first"><a href="#0" class="menu_list__item__link">Главная</a>
+            <li class="menu_list__item"><a href="#0" class="menu_list__item__link">Главная</a>
             </li>
             <li class="menu_list__item"><a href="#0" class="menu_list__item__link">Посты</a></li>
             <li class="menu_list__item"><a href="#0" class="menu_list__item__link">Статьи</a></li>
@@ -24,10 +24,13 @@
             <li class="menu_list__item"><a href="#0" class="menu_list__item__link">Темы</a></li>
             <li class="menu_list__item"><a href="#0" class="menu_list__item__link">Контакты</a></li>
           </ul>
-          <svg class="burger_menu" viewBox="0 0 50 50">
-            <path
-              d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z" />
-          </svg>
+          <button class="burger_menu_btn">            
+            <span class="visually-hidden">Развернуть меню</span>
+            <svg class="burger_menu_icon" viewBox="0 0 50 50">
+              <path
+                d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z" />
+            </svg>
+          </button>
         </nav>
       </div>
       <h1 class="header__title">Блог о творчестве, спорте, и образе жизни</h1>
@@ -183,8 +186,8 @@
       <aside class="sidebar">
         <section class="sidebar__item sidebar_posts">
           <h3 class="sidebar__item__title">Новые посты</h3>
-          <article class="sidebar__posts__item sidebar__posts__first_item">
-            <figure class="sidebar__item__picture"><img src="images/2.jpg" alt="Рассыет и пляж"></figure>
+          <article class="sidebar__posts__item">
+            <figure class="sidebar__item__picture"><img src="images/2.jpg" alt="Рассвет и пляж"></figure>
             <div>
               <header class="sidebar__item__header">
                 <time datetime="2019-06-14" class="sidebar__posts__date">14 июня 2019</time>
@@ -289,8 +292,8 @@
     <h2 class="shop__title">наши изделия</h2>
     <div class="shop_wrapper">
       <article class="shop__item">
-        <figure class="shop__item__picture"><img src="images/shop-item-desk1.jpg" class="shop__item__img" alt="Подушка">
-        </figure>
+        <picture class="shop__item__picture"><img src="images/shop-item-desk1.jpg" class="shop__item__img" alt="Подушка">
+        </picture>
         <div class="shop__item__info">
           <h3 class="shop__item__title">подушки на диван</h3>
           <p class="shop__item__text">Набор из двух подушек с модными принтами. Видео о создании <a href="#0"
@@ -305,9 +308,9 @@
         </div>
       </article>
       <article class="shop__item">
-        <figure class="shop__item__picture"><img src="images/shop-item-desk2.jpg" class="shop__item__img"
+        <picture class="shop__item__picture"><img src="images/shop-item-desk2.jpg" class="shop__item__img"
             alt="Мягкая игрушка 'Зайчик'">
-        </figure>
+        </picture>
         <div class="shop__item__info">
           <h3 class="shop__item__title">Кукла «Зайчик»</h3>
           <p class="shop__item__text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0"
@@ -322,8 +325,8 @@
         </div>
       </article>
       <article class="shop__item">
-        <figure class="shop__item__picture"><img src="images/shop-item-desk3.jpg" class="shop__item__img" alt="Подушка">
-        </figure>
+        <picture class="shop__item__picture"><img src="images/shop-item-desk3.jpg" class="shop__item__img" alt="Подушка">
+        </picture>
         <div class="shop__item__info">
           <h3 class="shop__item__title">Шестиугольная рамка</h3>
           <p class="shop__item__text">Необычная рамка для украшения дома из видео <a href="#0"
@@ -371,13 +374,15 @@
       <p class="pop_up__text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
       <textarea id="pop_up__textarea" placeholder="Может, больше рецептов?"></textarea>
       <button type="submit" class="pop_up__submit">Отправить</button>
-      <svg viewBox="0 0 441 441" class="pop_up_close">
-        <path
-          d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z" />
-      </svg>
+      <button class="pop_up__close_btn">
+        <span class="visually-hidden">Закрыть всплывающее окно</span>
+        <svg viewBox="0 0 441 441" class="pop_up__close_icon">
+          <path
+            d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z" />
+        </svg>
+      </button>
     </form>
   </div>
-  <div class="mask"></div>
 </body>
 
 </html>
